@@ -1,6 +1,6 @@
 {
   "name": "tcmkongreskrakow2023",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
     "autoprefixer": "10.4.14",
+    "clsx": "^1.2.1",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
