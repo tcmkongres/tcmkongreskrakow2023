@@ -16,7 +16,7 @@ export default function Header() {
                 <span className="sr-only">TCM Kongres</span>
                 <Image
                   alt="Polskie Towarzystwo Tradycyjnej Medycyny Chińskiej"
-                  className="h-24 w-auto"
+                  className="h-26 w-auto"
                   src={logo}
                 />
               </Link>

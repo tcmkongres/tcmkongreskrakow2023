@@ -51,11 +51,10 @@ export default function Faqs() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Najczesciej zadawane pytania?
+            Najczęściej zadawane pytania?
           </h2>
           <p className="mt-6 text-base leading-7 text-gray-600">
-            Masz jakieś pytanie lub chcesz dowiedziec sie czegos wieczej? Napisz
-            do nas ma adres{" "}
+            Masz jakieś pytanie lub chcesz dowiedzieć się czegoś więcej? Napisz do nas na adres {" "}
             <a
               href="mailto:tcmkongres.kontakt@gmail.com"
               className="font-semibold text-indigo-600 hover:text-indigo-500"
@@ -63,8 +62,7 @@ export default function Faqs() {
               tcmkongres.kontakt@gmail.com
             </a>
             {"."}
-            Odpowiemy najszybciej jak to mozliwe. A poniezej zebraslimy
-            najczesciej zadawane pytania.
+            Odpowiemy najszybciej jak to możliwe. Poniżej zebraliśmy najczęściej zadawane pytania.
           </p>
         </div>
         <div className="mt-20">
