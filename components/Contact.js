@@ -25,8 +25,7 @@ export default function Contact() {
               NUMER TELEFONU
             </h3>
             <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
-              <p>+ 48 12 422 20 76</p>
-              <p>+ 48 797 817 515</p>
+              <p>+ 48 785 807 081</p>
             </address>
           </div>
           <div>

@@ -38,7 +38,7 @@ export default function Header() {
             </svg>
 
             <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-40 lg:pr-0">
-              <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+              <div className="mx-auto  lg:mx-0 ">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   TCM KONGRES
                 </h1>
@@ -46,24 +46,24 @@ export default function Header() {
                   Kraków 13-15 października 2023
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Zapraszamy na V Międzynarodowy Kongres Medycyny Chińskiej
-                  organizowany przez Polskie Towarzystwo Tradycyjnej Medycyny
-                  Chińskiej (PTTMC) w Krakowie. Po przerwie spowodowanej
-                  pandemią czekamy na Was spragnieni bycia razem, wspólnego
+                  Zapraszamy na&nbsp;V Międzynarodowy Kongres Medycyny Chińskiej
+                  organizowany przez&nbsp;Polskie Towarzystwo Tradycyjnej Medycyny
+                  Chińskiej (PTTMC) w&nbsp;Krakowie. Po&nbsp;przerwie spowodowanej
+                  pandemią czekamy na&nbsp;Was spragnieni bycia razem, wspólnego
                   słuchania wykładów naszych wspaniałych nauczycieli, wzajemnej
-                  wymiany doświadczeń, inspiracji oraz wspólnej zabawy na
+                  wymiany doświadczeń, inspiracji oraz&nbsp;wspólnej zabawy na
                   bankiecie. Celem Kongresu jest stworzenie specjalnego miejsca
-                  spotkań dla terapeutów medycyny chińskiej z różnych stron
-                  Polski i świata, w którym mogą się uczyć od doświadczonych
-                  wykładowców i praktyków Tcm, rozwijać się oraz integrować po
-                  to, by naładować akumulatory, wypełnić wiedzą i jak lepiej
-                  służyć pacjentom w swoich gabinetach. Jesienne barwy,
-                  niezwykłe uliczki Krakowa, spacery nad Wisłą, po Rynku czy
+                  spotkań dla&nbsp;terapeutów medycyny chińskiej z&nbsp;różnych stron
+                  Polski i&nbsp;świata, w&nbsp;którym mogą się uczyć od&nbsp;doświadczonych
+                  wykładowców i&nbsp;praktyków Tcm, rozwijać się oraz&nbsp;integrować po
+                  to, by&nbsp;naładować akumulatory, wypełnić wiedzą i&nbsp;jak lepiej
+                  służyć pacjentom w&nbsp;swoich gabinetach. Jesienne barwy,
+                  niezwykłe uliczki Krakowa, spacery nad&nbsp;Wisłą, po&nbsp;Rynku czy
                   Kazimierzu tworzą przepiękną scenerię tego wydarzenia.
-                  Cieszymy się ogromnie, że niezwykli nauczyciele Tcm przyjadą
-                  specjalnie do Krakowa, żeby dzielić się swoją wiedzą oraz
-                  doświadczeniem, odpowiadać na pytania i być dla nas. Cieszymy
-                  się również, że wszyscy się spotkamy. Czekamy na Was w
+                  Cieszymy się ogromnie, że&nbsp;niezwykli nauczycieli Tcm przyjadą
+                  specjalnie do&nbsp;Krakowa, żeby&nbsp;dzielić się swoją wiedzą oraz
+                  doświadczeniem, odpowiadać na&nbsp;pytania i&nbsp;być dla&nbsp;nas. Cieszymy
+                  się również, że&nbsp;wszyscy się spotkamy. Czekamy na&nbsp;Was w
                   Krakowie!!!
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">

@@ -1,5 +1,5 @@
-import Image from "next/image";
-import kongres from "../app/kongres.jpg";
+import Image from 'next/image'
+import kongres from "../app/kongres.jpg"
 export default function About() {
   return (
     <div className="relative bg-white">
@@ -28,6 +28,13 @@ export default function About() {
               Małopolsce wpisanych na listę Światowego Dziedzictwa UNESCO -
               takich jak Kopalnia Soli w Wieliczce, Ojcowski Park Narodowy,
               Pieniny lub Zakopane i Tatry.
+            </p>
+            <p className="mt-4 text-xl font-bold tracking-tight text-gray-900 sm:text-xl">
+              Główne tematy
+            </p>
+            <p className="mt-6 text-base leading-8 text-gray-600">
+              Cykle życia. Wspieranie procesu przychodzenia i odchodzenia.
+              Immunologia i patogeny. Akupunktura klasyczna. Oczyszczanie ciała.
             </p>
           </div>
         </div>
