@@ -10,41 +10,41 @@ const tiers = [
   {
     name: "Bankiet",
     id: "1",
-    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow?plan=price_1N7MdWKiB9TlQ7ZZOad6aGN4",
+    href: "https://app.easycart.pl/checkout/88568273/bankiet-tcm2023",
     price: { monthly: "220 PLN" },
     description: "Bilet wstepu na bankiet.",
     features: [
-      // "Dostęp do wszystkich wykładów w wybranym dniu",
-      // "Dostęp do warsztatów i paneli dyskusyjnych w wybranym dniu",
-      // "Możliwość uczestnictwa w sesjach Q&A",
+      "Dostęp do wszystkich wykładów w sekcji po pobrania",
+      "Możliwość uczestnictwa w bankiecie",
     ],
     mostPopular: false,
   },
   {
-    name: "Bilet 3 dniowy",
+    name: "Bilet w przedsprzedaży",
     id: "2",
-    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow",
-    price: { monthly: "1 499 PLN" },
-    description: "Bilet wstępu na wszystkie wykłady.",
+    href: "https://app.easycart.pl/checkout/88568273/bilet-tcm2023-promo?promo=1",
+    price: { monthly: "od 407 PLN" },
+    description: "Bilet wstępu na wykłady.",
     features: [
-      // "Dostęp do wszystkich wykładów przez 3 dni",
-      // "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
-      // "Możliwość uczestnictwa w sesjach Q&A",
-      // "10% zniżki",
+      "Uczestnitwo na wykladach w zalezności od wybranego biletu",
+      "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
+      "Dostęp do wszystkich wykładów w sekcji po pobrania",
+      "zniżki dla wybranych partnerów",
+      "-15% zniżki promocja tylko do konca maja",
     ],
     mostPopular: true,
   },
   {
-    name: "Bilet 3 dniowy + bankiet",
+    name: "Bilet",
     id: "3",
-    href: "https://sandbox.easycart.pl/checkout/88568273/bilet-tcm-kongres-krakow?plan=price_1N7MdWKiB9TlQ7ZZszVQK9qp",
-    price: { monthly: "1 719 PLN" },
-    description: "Bilet wstepu na cale wydarzeniae oraz bankiet.",
+    href: "https://app.easycart.pl/checkout/88568273/bilet-tcm2023?plan=price_1N5CJ9KiB9TlQ7ZZOOb1R8a9?promo=1",
+    price: { monthly: "od 479 PLN" },
+    description: "Bilet wstępu na wykłady.",
     features: [
-      // "Dostęp do wszystkich wykładów przez 3 dni",
-      // "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
-      // "Możliwość uczestnictwa w sesjach Q&A",
-      // "Zaproszenie na ekskluzywne spotkanie z ekspertami",
+      "Dostęp do wszystkich wykładów przez 3 dni",
+      "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
+      "Dostęp do wszystkich wykładów w sekcji po pobrania",
+      "zniżki dla wybranych partnerów",
     ],
     mostPopular: false,
   },
@@ -105,7 +105,7 @@ export default function Pricing() {
                 </h3>
                 {tier.mostPopular ? (
                   <p className="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-indigo-600">
-                    Najciesciej wybierany
+                    PROMOCJA do konca maja!
                   </p>
                 ) : null}
               </div>
