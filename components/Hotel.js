@@ -17,11 +17,11 @@ export default function Hotel() {
               Galaxy Hotel ul. Gesia 22A 31-535 Krakow
             </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Located in the immediate proximity of the Old Town, the Galaxy
-              Hotel**** is a unique place in the centre of Krakow. to make an
-              early hotel reservation at the conference rate! 370PLN/night for
-              single and 410PLN/night for double room. Breakfast, SPA, fitness,
-              Internet included.
+              Galaxy**** to wyjątkowy hotel w centrum Krakowa, zlokalizowany w
+              sąsiedztwie Starego Miasta, tuż nad Wisłą. Decydując się na nocleg
+              u nas otrzymasz paletę pozytywnych emocji. Jesteśmy do Twojej
+              dyspozycji przez cały okres pobytu. Chętnie pomożemy w wyjątkowym
+              spędzeniu czasu w stolicy Małopolski. Spotkajmy się!
             </p>
             <div className="mt-10 flex">
               <a
