@@ -2,22 +2,25 @@ import { PaperClipIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import Script from "next/script";
 
-
-
-
 export default function Page() {
   return (
     <>
-        <Script id="my-script" src="https://app.easycart.pl/login.js?type=block&id=prod_NuFmJjdJesuRQe" />
-        {/*<Script id="my-script2">*/}
-        {/*    {`*/}
-        {/*     !window._EC_HASH_a241b13b7a35f21e7582b7c341a6f514 && (location.href = "https://app.easycart.pl/r/prod_NuFmJjdJesuRQe");*/}
-        {/*  `}*/}
-        {/*</Script>*/}
-        <noscript>
-            <meta http-equiv="refresh" content="0;url=https://app.easycart.pl/r/prod_NuFmJjdJesuRQe" />
-        </noscript>
-        <div className="bg-white px-6 py-32 lg:px-8">
+      <Script
+        id="my-script"
+        src="https://app.easycart.pl/login.js?type=block&id=prod_NuFmJjdJesuRQe"
+      />
+      {/*<Script id="my-script2">*/}
+      {/*    {`*/}
+      {/*     !window._EC_HASH_a241b13b7a35f21e7582b7c341a6f514 && (location.href = "https://app.easycart.pl/r/prod_NuFmJjdJesuRQe");*/}
+      {/*  `}*/}
+      {/*</Script>*/}
+      <noscript>
+        <meta
+          http-equiv="refresh"
+          content="0;url=https://app.easycart.pl/r/prod_NuFmJjdJesuRQe"
+        />
+      </noscript>
+      <div className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto  max-w-3xl min-h-full text-base leading-7 text-gray-700">
           <div data-free="true" className="px-4 sm:px-0">
             <p
@@ -46,14 +49,14 @@ export default function Page() {
             </p>
           </div>
           {/*<div data-paid="true" className="mt-6 border-t border-gray-100">*/}
-            <div  className="mt-6 border-t border-gray-100">
+          <div className="mt-6 border-t border-gray-100">
             <dl className="divide-y divide-gray-100">
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                 <dt className="text-sm font-medium leading-6 text-gray-900">
                   About
                 </dt>
                 <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                  Opis wydarzenia oraz pozostałe informacje.
+                  Pliki z poprzedniego kongresu.
                 </dd>
               </div>
               <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
