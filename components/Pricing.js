@@ -22,7 +22,7 @@ const tiers = [
   {
     name: "Bilet w przedsprzedaży",
     id: "2",
-    href: "https://app.easycart.pl/checkout/88568273/bilet-tcm2023-promo?promo=1",
+    href: "https://app.easycart.pl/checkout/88568273/tcm-kongres-2023-ticket?promo=1",
     price: { monthly: "od 407 PLN" },
     description: "Bilet wstępu na wykłady.",
     features: [
@@ -34,20 +34,20 @@ const tiers = [
     ],
     mostPopular: true,
   },
-  {
-    name: "Bilet",
-    id: "3",
-    href: "https://app.easycart.pl/checkout/88568273/bilet-tcm2023?plan=price_1N5CJ9KiB9TlQ7ZZOOb1R8a9?promo=1",
-    price: { monthly: "od 479 PLN" },
-    description: "Bilet wstępu na wykłady.",
-    features: [
-      "Dostęp do wszystkich wykładów przez 3 dni",
-      "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
-      "Dostęp do wszystkich wykładów w sekcji po pobrania",
-      "zniżki dla wybranych partnerów",
-    ],
-    mostPopular: false,
-  },
+  // {
+  //   name: "Bilet",
+  //   id: "3",
+  //   href: "https://app.easycart.pl/checkout/88568273/bilet-tcm2023?promo=1",
+  //   price: { monthly: "od 479 PLN" },
+  //   description: "Bilet wstępu na wykłady.",
+  //   features: [
+  //     "Dostęp do wszystkich wykładów przez 3 dni",
+  //     "Dostęp do warsztatów i paneli dyskusyjnych przez 3 dni",
+  //     "Dostęp do wszystkich wykładów w sekcji po pobrania",
+  //     "zniżki dla wybranych partnerów",
+  //   ],
+  //   mostPopular: false,
+  // },
 ];
 
 function classNames(...classes) {
@@ -149,6 +149,38 @@ export default function Pricing() {
             </div>
           ))}
         </div>
+        {tiers.map((tier) => (
+            <div
+                key={tier.id}
+                className="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-xl ring-1 ring-gray-900/10 sm:p-10"
+            >
+              <div>
+                <h3 id={tier.id} className="text-base font-semibold leading-7 text-indigo-600">
+                  {tier.name}
+                </h3>
+                <div className="mt-4 flex items-baseline gap-x-2">
+                  <span className="text-5xl font-bold tracking-tight text-gray-900">{tier.priceMonthly}</span>
+                  <span className="text-base font-semibold leading-7 text-gray-600">/month</span>
+                </div>
+                <p className="mt-6 text-base leading-7 text-gray-600">{tier.description}</p>
+                <ul role="list" className="mt-10 space-y-4 text-sm leading-6 text-gray-600">
+                  {tier.features.map((feature) => (
+                      <li key={feature} className="flex gap-x-3">
+                        <CheckIcon className="h-6 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                        {feature}
+                      </li>
+                  ))}
+                </ul>
+              </div>
+              <a
+                  href={tier.href}
+                  aria-describedby={tier.id}
+                  className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Get started today
+              </a>
+            </div>
+        ))}
       </div>
     </div>
   );
