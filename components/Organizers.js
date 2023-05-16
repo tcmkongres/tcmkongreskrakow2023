@@ -17,7 +17,7 @@ export default function Example() {
                 nawiązanie cennych kontaktów w branży.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a  href="https://www.pttmc.org" className="text-sm font-semibold leading-6 text-gray-900">
+            <a  href="http://www.pttmc.org" className="text-sm font-semibold leading-6 text-gray-900">
               Polskie Towarzystwo Tradycyjnej Medycyny Chińskiej  <span aria-hidden="true">→</span>
             </a>
           </div>
