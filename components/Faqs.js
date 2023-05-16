@@ -4,36 +4,37 @@ const faqs = [
     question:
       "Gdzie odbędzie się wydarzenie związane z medycyną chińską w Krakowie?",
     answer:
-      "Wydarzenie odbędzie się w Centrum Konferencyjnym Kraków, ul. Słoneczna 12, 31-000 Kraków. Dokładne informacje o lokalizacji znajdziesz na stronie internetowej wydarzenia.",
+      "Wydarzenie odbędzie się w Hotelu Galaxy ul. Gęsia 22A 31-535 Krakow",
   },
   {
     id: 2,
     question: "Kiedy odbędzie się to wydarzenie?",
     answer:
-      "Wydarzenie odbędzie się w dniach 25-27 maja 2023 r. Szczegółowy harmonogram wydarzenia znajdziesz na naszej stronie internetowej.",
+      "Wydarzenie odbędzie się w dniach 13-15 października  2023 r. Szczegółowy harmonogram wydarzenia znajdziesz na naszej stronie internetowej.",
   },
   {
     id: 3,
     question: "Jak mogę się zarejestrować na wydarzenie?",
     answer:
-      "Aby się zarejestrować, należy wypełnić formularz zgłoszeniowy dostępny na stronie internetowej wydarzenia. Po wypełnieniu formularza, otrzymasz potwierdzenie rejestracji na podany adres e-mail.",
+      " Aby się zarejestrować, należy kupić bilet dostępny na stronie internetowej wydarzenia. Po zakupie biletu, otrzymasz potwierdzenie rejestracji na podany adres e-mail.",
   },
   {
     id: 4,
     question: "Czy na miejscu będzie możliwość zakupu biletów?",
     answer:
-      "O ile wydarzenie nie zostanie wcześniej wyprzedane, bilety będzie można nabyć na miejscu w dniu rozpoczęcia wydarzenia. Zalecamy jednak wcześniejszą rejestrację, aby zapewnić sobie miejsce.",
+      "O ile wydarzenie nie zostanie wcześniej wyprzedane, bilety będzie można nabyć na miejscu w dniu rozpoczęcia wydarzenia. Zalecamy jednak wcześniejszy zakup biletu, aby zapewnić sobie miejsce.",
   },
   {
     id: 5,
     question: "Czy na wydarzeniu będą tłumaczenia na język polski?",
     answer:
-      "Tak, podczas wydarzenia będą dostępne tłumaczenia na język polski. Prosimy o wcześniejsze zaznaczenie potrzeby tłumaczenia w formularzu zgłoszeniowym, abyśmy mogli odpowiednio się przygotować.",
+      "Tak, podczas wydarzenia wszystkie anglojęzyczne wykłady będą tłumaczone na język polski",
   },
   // More questions...
 ];
 
-export default function Faqs() {
+
+    export default function Faqs() {
   return (
     <div className=" relative isolate">
       <div
