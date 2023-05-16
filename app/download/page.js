@@ -8,17 +8,12 @@ import Script from "next/script";
 export default function Page() {
   return (
     <>
-
-
-
         <Script id="my-script" src="https://app.easycart.pl/login.js?type=block&id=prod_NuFmJjdJesuRQe" />
-
-        <Script id="my-script2">
-            {`
-                       !window._EC_HASH_a241b13b7a35f21e7582b7c341a6f514 && (location.href = "https://app.easycart.pl/r/prod_NuFmJjdJesuRQe");
-          `}
-        </Script>
-
+        {/*<Script id="my-script2">*/}
+        {/*    {`*/}
+        {/*     !window._EC_HASH_a241b13b7a35f21e7582b7c341a6f514 && (location.href = "https://app.easycart.pl/r/prod_NuFmJjdJesuRQe");*/}
+        {/*  `}*/}
+        {/*</Script>*/}
         <noscript>
             <meta http-equiv="refresh" content="0;url=https://app.easycart.pl/r/prod_NuFmJjdJesuRQe" />
         </noscript>
