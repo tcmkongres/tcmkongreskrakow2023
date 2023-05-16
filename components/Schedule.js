@@ -1,153 +1,227 @@
-'use client';
+"use client";
 import { useEffect, useState } from "react";
 import { Tab } from "@headlessui/react";
 import clsx from "clsx";
 
 const schedule = [
   {
-    date: "Dzien 1",
-    dateTime: "2023-01-01",
-    summary: "Dzien 1. Napiszmy co tutaj sie dzieje",
+    date: "Piątek",
+    dateTime: "2023-10-13",
+    summary: "Dzien 1.",
     timeSlots: [
       {
-        name: "Imie Nazwisko 111",
-        description: "Opis opis opis opis 111111",
-        start: "9:00",
-        end: "10:00",
-      },
-      {
-        name: "Imie Nazwisko 111",
-        description: "Opis opis opis opis 111111",
+        name: "Izabela Miętka",
+        description: "Powitanie",
         start: "10:00",
-        end: "11:00",
+        end: "10:10",
       },
       {
-        name: "Imie Nazwisko 111",
-        description: "Opis opis opis opis 111111",
-        start: "11:00",
+        name: "Marek Kalmus",
+        description: "Wkrótce",
+        start: "10:10",
+        end: "10:40",
+      },
+      {
+        name: "Yair Maimon",
+        description: "Wkrótce",
+        start: "10:40",
+        end: "11:40",
+      },
+      {
+        name: "Przerwa",
+        description: null,
+        start: "11:40",
         end: "12:00",
       },
       {
-        name: "Lunch",
-        description: null,
+        name: "Ricardo Teixeira ",
+        description: "Wkrótce",
         start: "12:00",
-        end: "1:00",
+        end: "12:30",
       },
       {
-        name: "Imie Nazwisko 111",
-        description: "Opis opis opis opis 111111",
-        start: "1:00",
-        end: "2:00",
+        name: "Marta Nizioł",
+        description: "Wkrótce",
+        start: "12:30",
+        end: "13:00",
       },
       {
-        name: "Imie Nazwisko 111",
-        description: "Opis opis opis opis 111111",
-        start: "2:00",
-        end: "3:00",
+        name: "Izabela Miętka",
+        description: "Wkrótce",
+        start: "13:00",
+        end: "13:30",
       },
       {
-        name: "Imie Nazwisko 111",
-        description: "Opis opis opis opis 111111",
-        start: "3:00",
-        end: "4:00",
+        name: "Przerwa obiadowa",
+        description: null,
+        start: "13:30",
+        end: "15:00",
+      },
+      {
+        name: "Prof. Li Jie",
+        description: "Odpowiedzi na trudne pytania",
+        start: "14:30",
+        end: "14:50",
+      },
+      {
+        name: "Marta Nizioł - Izabela Miętka - Katarzyna Pokrywka",
+        description: "Kobiece sprawy - odpowiedzi na trudne pytania",
+        start: "14:20",
+        end: "14:50",
+      },
+      {
+        name: "Hamid Montakab",
+        description: "Sztuka starzenia się z wdziękiem i umierania w łasce",
+        start: "15:00",
+        end: "18:30",
+      },
+      {
+        name: "Bartosz Chmielnicki",
+        description:
+          "Zimno i Gorąco – nieproszeni goście. Strategie Shang Han Lun i Wen Bing w walce z patogenami.",
+        start: "15:00",
+        end: "18:30",
+      },
+      {
+        name: "Prof. Li Jie",
+        description: "Akupunktura Ling Shu Jing . Co i dlaczego?",
+        start: "15:00",
+        end: "18:30",
       },
     ],
   },
   {
-    date: "Dzien 2",
-    dateTime: "2023-01-02",
-    summary: "Dzien 2. Napiszmy co tutaj sie dzieje",
+    date: "Sobota",
+    dateTime: "2023-10-14",
+    summary: "Dzien 2.",
     timeSlots: [
       {
-        name: "Imie Nazwisko 222222",
-        description: "Opis opis opis opis 22222",
+        name: "Rani Ayal",
+        description: "Pieśń Jadeitowego Smoka: 12 magicznych punktów",
         start: "9:00",
-        end: "10:00",
+        end: "13:00",
       },
       {
-        name: "Imie Nazwisko 222222",
+        name: "Jong Baik",
+        description:
+          " Koreańska Terapia Dłoni (KHT) dla problemów ginekologicznych, niepłodności i wspomaganego zachodzenia w ciążę. Cz.1",
+        start: "9:00",
+        end: "13:00",
+      },
+      {
+        name: "Ricardo Teixeira",
+        description: "Kreatywne Hun. W jaki sposób Hun wpływa na nasze życie'",
+        start: "9:00",
+        end: "13:00",
+      },
+      {
+        name: "Dorota Łapa",
+        description:
+          "Jak oczyszczać dietą osoby z niedoborami?\n" +
+          "Oczyszczanie z wykorzystaniem podstaw wzmacniania Qi i Krwi wg medycyny chińskiej.",
+        start: "9:00",
+        end: "13:00",
+      },
+      {
+        name: "Panel Rani Ayal - Yair Maimon",
+        description: "Odpowiedzi na trudne pytania",
+        start: "13:15",
+        end: "13:45",
+      },
+      {
+        name: "Dorota Łapa i Joanna Brejecka ",
         description: "Opis opis opis opis 22222",
-        start: "10:00",
-        end: "11:00",
+        start: "13:15",
+        end: "13:45",
       },
       {
-        name: "Imie Nazwisko 222222",
-        description: "Opis opis opis opis 22222",
-        start: "11:00",
-        end: "12:00",
-      },
-      {
-        name: "Lunch",
+        name: "Przerwa obiadowa ",
         description: null,
-        start: "12:00",
-        end: "1:00",
+        start: "13:45",
+        end: "15:00",
       },
       {
-        name: "Imie Nazwisko 222222",
-        description: "Opis opis opis opis 22222",
-        start: "1:00",
-        end: "2:00",
+        name: "Jong Baik",
+        description:
+          "Terapia Dłoni (KHT) dla problemów ginekologicznych, niepłodności i wspomaganego zachodzenia w ciążę. Cz.2 ",
+        start: "15:00",
+        end: "18:00",
       },
       {
-        name: "Imie Nazwisko 222222",
-        description: "Opis opis opis opis 22222",
-        start: "2:00",
-        end: "3:00",
+        name: "Hamid Montakab ",
+        description:
+          "Postępowanie w alergiach sezonowych i przewlekłych w praktyce klinicznej",
+        start: "15:00",
+        end: "18:00",
       },
       {
-        name: "Imie Nazwisko 222222",
-        description: "Opis opis opis opis 22222",
-        start: "3:00",
-        end: "4:00",
+        name: "Yair Maimon",
+        description: "Regulowanie układu odpornościowego w TMC",
+        start: "15:00",
+        end: "18:00",
+      },
+      {
+        name: "Bankiet",
+        description: null,
+        start: "19:30",
+        end: "23:00",
       },
     ],
   },
   {
-    date: "Dzien 3",
-    dateTime: "2023-01-03",
-    summary: "Dzien 3. Napiszmy co tutaj sie dzieje",
+    date: "Niedziela",
+    dateTime: "2023-10-15",
+    summary: "Dzien 3.",
     timeSlots: [
       {
-        name: "Imie Nazwisko 333333",
-        description: "Opis opis opis opis 33333",
+        name: "Kasia Kołodziejczyk - Pokrywka ",
+        description: "Akupunktura wspierająca proces zapłodnienia in vitro.",
         start: "9:00",
-        end: "10:00",
+        end: "11:00",
       },
       {
-        name: "Imie Nazwisko 333333",
-        description: "Opis opis opis opis 33333",
+        name: "Joanna Brejecka- Pamungkas",
+        description:
+          "Przewlekłe infekcje oddechowe u dzieci  - wzorce patologii, fitoterapia zachodnia wg tcm, tuina pediatryczna.",
         start: "10:00",
         end: "11:00",
       },
       {
-        name: "Imie Nazwisko 333333",
-        description: "Opis opis opis opis 33333",
+        name: "Bożena Olszowska Chińska",
+        description: "Sztuka czytania z twarzy - przejrzeć wszystko na wylot",
+        start: "11:00",
+        end: "11:00",
+      },
+      {
+        name: "Przerwa",
+        description: null,
         start: "11:00",
         end: "12:00",
       },
       {
-        name: "Lunch",
-        description: null,
-        start: "12:00",
-        end: "1:00",
+        name: "Ricardo Teixeira ",
+        description: "Odpowiedzi na trudne pytania ",
+        start: "11:15",
+        end: "11:45",
       },
       {
-        name: "Imie Nazwisko 333333",
-        description: "Opis opis opis opis 33333",
-        start: "1:00",
-        end: "2:00",
+        name: "Kasia Kołodziejczyk - Pokrywka ",
+        description: "Akupunktura wspierająca proces zapłodnienia in vitro.",
+        start: "12:15",
+        end: "14:00",
       },
       {
-        name: "Imie Nazwisko 333333",
-        description: "Opis opis opis opis 33333",
-        start: "2:00",
-        end: "3:00",
+        name: "Joanna Brejecka- Pamungkas",
+        description:
+          "Przewlekłe infekcje oddechowe u dzieci  - wzorce patologii, fitoterapia zachodnia wg tcm, tuina pediatryczna.",
+        start: "12:15",
+        end: "14:00",
       },
       {
-        name: "Imie Nazwisko 333333",
-        description: "Opis opis opis opis 33333",
-        start: "3:00",
-        end: "4:00",
+        name: "Bożena Olszowska Chińska",
+        description: "Sztuka czytania z twarzy - przejrzeć wszystko na wylot",
+        start: "12:15",
+        end: "14:00",
       },
     ],
   },
@@ -299,7 +373,7 @@ export function Schedule() {
             Program Kongresu
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-            Tutaj jakis opis, co tutaj chcemy zapisać?
+           Przedstawiamy program Kongresu.
           </p>
         </div>
       </Container>

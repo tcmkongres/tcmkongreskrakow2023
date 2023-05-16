@@ -20,7 +20,7 @@ export default function Home() {
           <main>
             <About></About>
             {/*<Speakers></Speakers>*/}
-            {/*<Schedule></Schedule>*/}
+            <Schedule></Schedule>
             <Hotel></Hotel>
             {/*<Pricing></Pricing>*/}
             <Koszyk></Koszyk>
