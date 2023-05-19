@@ -60,7 +60,7 @@ const people = [
       "is an internationally renowned figure in the field of Integrative and Chinese Medicine with over 30 years of clinical, academic, and research experience in the United States, Europe, China and Israel.",
   },
   {
-    name: "RAni Ayal",
+    name: "Rani Ayal",
     role: "Doctor",
     imageUrl: Ayal,
     url: "/ayal",

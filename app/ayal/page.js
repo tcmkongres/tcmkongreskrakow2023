@@ -27,7 +27,7 @@ export default function Page() {
                 </Link>
               </p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                RAni Ayal
+                Rani Ayal
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
