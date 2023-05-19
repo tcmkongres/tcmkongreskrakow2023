@@ -181,21 +181,24 @@ const schedule = [
     timeSlots: [
       {
         name: "Kasia Kołodziejczak - Pokrywka ",
-        description: "Akupunktura wspierająca proces zapłodnienia in vitro.",
+        description:
+          "Akupunktura wspierająca proces zapłodnienia in vitro. cz. 1",
         start: "9:00",
         end: "11:00",
       },
       {
         name: "Joanna Brejecka- Pamungkas",
         description:
-          "Przewlekłe infekcje oddechowe u dzieci  - wzorce patologii, fitoterapia zachodnia wg tcm, tuina pediatryczna.",
-        start: "10:00",
+          "Przewlekłe infekcje oddechowe u dzieci  - wzorce patologii, fitoterapia zachodnia wg tcm, tuina" +
+          " pediatryczna. cz. 1",
+        start: "9:00",
         end: "11:00",
       },
       {
         name: "Bożena Olszowska",
-        description: "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot",
-        start: "11:00",
+        description:
+          "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot. cz. 1",
+        start: "9:00",
         end: "11:00",
       },
       {
@@ -225,7 +228,8 @@ const schedule = [
       },
       {
         name: "Bożena Olszowska",
-        description: "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot",
+        description:
+          "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot.",
         start: "12:15",
         end: "14:00",
       },
@@ -379,7 +383,7 @@ export function Schedule() {
             Program Kongresu
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-           Przedstawiamy program Kongresu.
+            Przedstawiamy program Kongresu.
           </p>
         </div>
       </Container>
