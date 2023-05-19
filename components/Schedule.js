@@ -180,7 +180,7 @@ const schedule = [
     summary: "Dzien 3.",
     timeSlots: [
       {
-        name: "Kasia Kołodziejczak - Pokrywka ",
+        name: "Kasia Pokrywka ",
         description:
           "Akupunktura wspierająca proces zapłodnienia in vitro. cz. 1",
         start: "9:00",
@@ -214,7 +214,7 @@ const schedule = [
         end: "11:45",
       },
       {
-        name: "Kasia Kołodziejczak - Pokrywka ",
+        name: "Kasia Pokrywka ",
         description: "Akupunktura wspierająca proces zapłodnienia in vitro.",
         start: "12:15",
         end: "14:00",
