@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import kongres from "../app/kongres.jpg"
+import Image from "next/image";
+import kongres from "../app/kongres.jpg";
 export default function About() {
   return (
     <div className="relative bg-white">
@@ -10,13 +10,13 @@ export default function About() {
               Polska i TCM
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Praktyka i edukacja TCM w Polsce w ostatniej dekadzie szybko się
-              rozwija. W wielu głównych miastach istnieją szkoły TCM, które
-              wykładają podstawową i zaawansowaną akupunkturą i ziołami: Kraków,
-              Katowice, Wrocław, Poznań, Gdańsk, Bydgoszcz, Warszawa. Kliniki i
-              ośrodki medycyny chińskiej są dostępne w większości regionów
-              Polski i cieszą się coraz większym zainteresowaniem tą formą
-              medycyny.
+              Praktyka i edukacja TCM w Polsce w ostatniej dekadzie rozwijają
+              się szybko. Szkoły TCM, które prowadzą wykłady z podstawowej i
+              zaawansowanej akupunktury oraz ziołolecznictwa, istnieją w wielu
+              głównych miastach: Krakowie, Katowicach, Wrocławiu, Poznaniu,
+              Gdańsku, Bydgoszczy, Warszawie. Kliniki i ośrodki medycyny
+              chińskiej są dostępne w większości regionów Polski i cieszą się
+              coraz większym zainteresowaniem tą formą medycyny.
             </p>
 
             <p className="mt-4 text-xl font-bold tracking-tight text-gray-900 sm:text-xl">
@@ -24,10 +24,10 @@ export default function About() {
             </p>
             <p className="mt-6 text-base leading-8 text-gray-600">
               Dla osób zainteresowanych zwiedzaniem średniowiecznego Krakowa lub
-              jego okolic pomożemy w organizacji wycieczek po Krakowie i
-              Małopolsce wpisanych na listę Światowego Dziedzictwa UNESCO -
-              takich jak Kopalnia Soli w Wieliczce, Ojcowski Park Narodowy,
-              Pieniny lub Zakopane i Tatry.
+              jego okolic, pomożemy w organizacji wycieczek po Krakowie i
+              Małopolsce, które są wpisane na listę Światowego Dziedzictwa
+              UNESCO - takie jak Kopalnia Soli w Wieliczce, Ojcowski Park
+              Narodowy, Pieniny, Zakopane czy Tatry.
             </p>
             <p className="mt-4 text-xl font-bold tracking-tight text-gray-900 sm:text-xl">
               Główne tematy
