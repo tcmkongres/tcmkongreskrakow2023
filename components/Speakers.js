@@ -1,105 +1,98 @@
 import Link from "next/link";
 import Image from "next/image";
-import bartosz_43_640 from "../app/speakers/bartosz_43_640.png";
-import agnieszka_43 from "../app/speakers/agnieszka_43.jpg";
-import david43_640 from "../app/speakers/david43_640.jpg";
-import dorota_43_640_480 from "../app/speakers/dorota_43_640_480.jpg";
-import grazyna_43 from "../app/speakers/grazyna_43.jpg";
-import li_43_640 from "../app/speakers/li_43_640.png";
-import LiLing from "../app/speakers/LiLing.jpg";
-import peter_43 from "../app/speakers/peter_43.jpg";
-import rani_43_640 from "../app/speakers/rani_43_640.png";
-import ricardo640 from "../app/speakers/ricardo640.jpg";
-import shulan_43 from "../app/speakers/shulan_43.png";
-import tomasz_43_640_480 from "../app/speakers/tomasz_43_640_480.jpg";
-import yair_43 from "../app/speakers/yair_43.jpg";
-import zhou_43_640_480 from "../app/speakers/zhou_43_640_480.jpg";
+import Pokrywka from "images/Pokrywka.jpeg";
+import Olszowska from "images/Olszowska.jpeg";
+import Lapa from "images/Lapa.png";
+import Brejecka from "images/Brejecka.png";
+import Chmielnicki from "images/Chmielnicki.png";
+import Maimon from "images/Maimon.png";
+import Ayal from "images/Ayal.png";
+import Teixeira from "images/Teixeira.png";
+import Jie from "images/Jie.png";
+import Montakab from "images/Montakab.jpeg";
+import Baik from "images/Baik.jpg";
 
 const people = [
   {
-    name: "Imie Nazwisko",
+    name: "Katarzyna Pokrywka",
     role: "Doctor",
-    imageUrl: bartosz_43_640,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Pokrywka,
+    url: "/pokrywka",
+    bio: "Medycyna Chińska jest moją pasją, filozofią życia i pracą. Akupunktura jest głównym narzędziem mojej pracy. Od ponad 15 lat prowadzę swój gabinet we Wrocławiu. Pomagam kobietom, które cierpią z powodu zaburzeń swojego cyklu miesiączkowego. Wspieram niepłodne pary w odbudowaniu swojego ciała i przygotowaniu się do poczęcia. Dbam o zdrowie i odporność kobiet w ciąży oraz małych dzieci. Prowadzę kursy akupunktury dla terapeutów oraz warsztaty medycyny chińskiej dla swoich pacjentów. ",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Bożena Olszowska",
     role: "Doctor",
-    imageUrl: agnieszka_43,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Olszowska,
+    url: "/olszowska",
+    bio: "Bożena Olszowska to doświadczona naturoterapeutka, dietoterapeutka oraz terapeutka Tradycyjnej Medycyny Chińskiej. Swoje wykształcenie zdobywała na Studium Edukacji Ekologicznej, gdzie studiowała Terapie Naturalne, na Wydziale Biologii i Ochrony Środowiska Uniwersytetu Śląskiego oraz w Akademii Akupunktury Compleo w Katowicach.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Dorota Łapa",
     role: "Doctor",
-    imageUrl: david43_640,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Lapa,
+    url: "/lapa",
+    bio: "Terapeutka Medycyny chinskiej, dietetyczka i akupunkturzystka.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Joanna Brejecka-Pamungkas",
     role: "Doctor",
-    imageUrl: dorota_43_640_480,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Brejecka,
+    url: "/brejecka",
+    bio:
+      "Dyplomowany naturopata ze Stanów Zjednoczonych (ND – naturopatic doctor), dietetyk holistyczny, terapeutka" +
+      " medycyny chińskiej, terapeutka Tuiny pediatrycznej, ekspert w programach w TV, autor artykułów w tematyce zdrowia naturalnego, autorka książki „Naturalnie Zdrowe Dziecko”, szkoleniowiec, autorka pierwszego w Polsce kursu Tuina online dla dzieci.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Bartosz Chmielnicki",
     role: "Doctor",
-    imageUrl: grazyna_43,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Chmielnicki,
+    url: "/chmielnicki",
+    bio: "Bartosz Chmielnicki jest lekarzem medycyny, praktykującym i uczącym akupunktury od 2004 roku.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Yair Maimon",
     role: "Doctor",
-    imageUrl: li_43_640,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Maimon,
+    url: "/maimon",
+    bio:
+      "Dr. Yair Maimon OMD, PhD Ac\n" +
+      "is an internationally renowned figure in the field of Integrative and Chinese Medicine with over 30 years of clinical, academic, and research experience in the United States, Europe, China and Israel.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "RAni Ayal",
     role: "Doctor",
-    imageUrl: LiLing,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Ayal,
+    url: "/ayal",
+    bio: "Rani Ayal has been studying, practicing and teaching Chinese Medicine for over thirty years.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Ricardo Teixeira",
     role: "Doctor",
-    imageUrl: peter_43,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Teixeira,
+    url: "/teixeira",
+    bio: "Ricardo is a licensed Acupuncturist and also as the number one licence in Traditional Chinese Medicine Specialist in Portugal.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Prof. Li Jie",
     role: "Doctor",
-    imageUrl: rani_43_640,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Jie,
+    url: "/jie",
+    bio: "He has been practicing TCM 30 years in Europe.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Hamid Montakab",
     role: "Doctor",
-    imageUrl: ricardo640,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Montakab,
+    url: "/montakab",
+    bio: "Hamid Montakab graduated from the Medical School of Paris, did his residency in surgery as well as completing an education in acupuncture in France and in China.",
   },
   {
-    name: "Imie Nazwisko",
+    name: "Jong Kook Baik",
     role: "Doctor",
-    imageUrl: shulan_43,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
-  },
-  {
-    name: "Imie Nazwisko",
-    role: "Doctor",
-    imageUrl: tomasz_43_640_480,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
-  },
-  {
-    name: "Imie Nazwisko",
-    role: "Doctor",
-    imageUrl: yair_43,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
-  },
-
-  {
-    name: "Imie Nazwisko",
-    role: "Doctor",
-    imageUrl: zhou_43_640_480,
-    bio: "Lekarz w wieloletnim doswiadczeniem zawodowym. specjalizacja medycyna chinska",
+    imageUrl: Baik,
+    url: "/baik",
+    bio: "Jong Kook Baik is originally from South Korea and is now living in England. He is an Award-Winning international lecturer specialising in micro-acupuncture systems particularly Korean Hand Therapy (KHT).",
   },
   // More people...
 ];
@@ -113,7 +106,10 @@ export default function Speakers() {
             Nasi wykładowcy
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Jakis tekst do do wpisania, kilka slow jakie chcemy wyswietlic.
+            Mamy zaszczyt przedstawić nasz zespół wykładowców na nadchodzący
+            Kongres TCM w Krakowie. Wszyscy nasi prelegenci to doświadczeni
+            praktycy medycyny chińskiej, z solidnym tłem edukacyjnym i
+            praktycznym.
           </p>
         </div>
         <ul
@@ -121,10 +117,10 @@ export default function Speakers() {
           className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
         >
           {people.map((person) => (
-            <Link key={person.name} href="/people">
-              <li className="flex flex-col gap-6 xl:flex-row">
+            <Link key={person.name} href={person.url}>
+              <li className="flex flex-col gap-6 xl:flex-row ">
                 <Image
-                  className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                  className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover shadow-2xl"
                   src={person.imageUrl}
                   alt=""
                 />
@@ -133,9 +129,9 @@ export default function Speakers() {
                   <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
                     {person.name}
                   </h3>
-                  <p className="text-base leading-7 text-gray-600">
-                    {person.role}
-                  </p>
+                  {/*<p className="text-base leading-7 text-gray-600">*/}
+                  {/*  {person.role}*/}
+                  {/*</p>*/}
                   <p className="mt-6 text-base leading-7 text-gray-600">
                     {person.bio}
                   </p>

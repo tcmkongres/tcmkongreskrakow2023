@@ -19,7 +19,7 @@ export default function Home() {
           <Header></Header>
           <main>
             <About></About>
-            {/*<Speakers></Speakers>*/}
+            <Speakers></Speakers>
             <Schedule></Schedule>
             <Hotel></Hotel>
             {/*<Pricing></Pricing>*/}
