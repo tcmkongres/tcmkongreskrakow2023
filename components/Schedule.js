@@ -96,6 +96,12 @@ const schedule = [
     summary: "Dzien 2.",
     timeSlots: [
       {
+        name: "Bożena Olszowska",
+        description: "Poranny Qigong",
+        start: "7:30",
+        end: "8:15",
+      },
+      {
         name: "Rani Ayal",
         description: "Pieśń Jadeitowego Smoka: 12 magicznych punktów",
         start: "9:00",
@@ -130,7 +136,7 @@ const schedule = [
       },
       {
         name: "Dorota Łapa i Joanna Brejecka ",
-        description: "Opis opis opis opis 22222",
+        description: "Odpowiedzi na pytania o zioła i dietę.",
         start: "13:15",
         end: "13:45",
       },
@@ -187,8 +193,8 @@ const schedule = [
         end: "11:00",
       },
       {
-        name: "Bożena Olszowska Chińska",
-        description: "Sztuka czytania z twarzy - przejrzeć wszystko na wylot",
+        name: "Bożena Olszowska",
+        description: "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot",
         start: "11:00",
         end: "11:00",
       },
@@ -218,8 +224,8 @@ const schedule = [
         end: "14:00",
       },
       {
-        name: "Bożena Olszowska Chińska",
-        description: "Sztuka czytania z twarzy - przejrzeć wszystko na wylot",
+        name: "Bożena Olszowska",
+        description: "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot",
         start: "12:15",
         end: "14:00",
       },
