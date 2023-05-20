@@ -23,6 +23,13 @@ export default function Hotel() {
               dyspozycji przez cały okres pobytu. Chętnie pomożemy w wyjątkowym
               spędzeniu czasu w stolicy Małopolski. Spotkajmy się!
             </p>
+            <p className="mt-6 text-base leading-7 text-gray-600">
+              Osoby chcące dokonać rezerwacji ze zniżką prosimy o przesyłanie
+              zapytań na adres : <strong>konferencje@jordan.pl</strong> z
+              dopiskiem Medycyna chińska. Pula dostępnych pokoi w tym terminie
+              jest mocno ograniczona, zachęcamy do dokonywania rezerwacji jak
+              najszybciej.
+            </p>
             <div className="mt-10 flex">
               <a
                 href="http://galaxyhotel.pl/en/h24_code/TCMKongres/p2019-10-10/w2019-10-13/"
