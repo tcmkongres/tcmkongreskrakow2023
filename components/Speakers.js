@@ -11,6 +11,9 @@ import Teixeira from "images/Teixeira.png";
 import Jie from "images/Jie.png";
 import Montakab from "images/Montakab.jpeg";
 import Baik from "images/Baik.jpg";
+import Mietka from "images/Mietka.png";
+import Wojniusz from "images/Wojniusz.jpg";
+import Kalmus from "images/Kalmus.jpg";
 
 const people = [
   {
@@ -93,6 +96,27 @@ const people = [
     imageUrl: Baik,
     url: "/baik",
     bio: "Jong Kook Baik is originally from South Korea and is now living in England. He is an Award-Winning international lecturer specialising in micro-acupuncture systems particularly Korean Hand Therapy (KHT).",
+  },
+  {
+    name: "Izabela Miętka",
+    role: "Doctor",
+    imageUrl: Mietka,
+    url: "/mietka",
+    bio: "Izabela Miętka terapeutka medycyny chińskiej, akupunkturzystka, Prezeska Polskiego Towarzystwa Tradycyjnej Medycyny Chińskiej, filozofka i socjolożka.",
+  },
+  {
+    name: "Marta Nizioł-Wojniusz",
+    role: "Doctor",
+    imageUrl: Wojniusz,
+    url: "/wojniusz",
+    bio: "Od 2005 r. uczy się i praktykuje medycynę chińską (klasyczną i tradycyjną).",
+  },
+  {
+    name: "Dr Marek Kalmus",
+    role: "Doctor",
+    imageUrl: Kalmus,
+    url: "/kalmus",
+    bio: "Dr Marek Kalmus z Krakowa, założyciel i dyrektor Instytutu Medycyny Chińskiej i Profilaktyki Zdrowia, honorowy prezes Polskiego Towarzystwa Tradycyjnej Medycyny Chińskiej oraz dyrektor zarządzający Centrum Medycyny Chińskiej w Krakowie",
   },
   // More people...
 ];
