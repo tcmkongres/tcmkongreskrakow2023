@@ -31,27 +31,27 @@ export default function Page() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Dr. Yair Maimon OMD, PhD Ac is an internationally renowned
-                  figure in the field of Integrative and Chinese Medicine with
-                  over 30 years of clinical, academic, and research experience
-                  in the United States, Europe, China and Israel.
-                </p>
+                  Yair Maimon jest rozpoznawanym na całym świecie specjalistą w
+                  dziedzinie medycyny integracyjnej i chińskiej, z ponad
+                  30-letnim doświadczeniem klinicznym, akademickim i badawczym,
+                  zdobywanym w Stanach Zjednoczonych, Europie, Chinach i
+                  Izraelu.
+                </p>{" "}
                 <p className="mt-6">
-                  He is the president of the ETCMA -European TCM Association,
-                  representing TCM association from 24 countries.
-                </p>
+                  {" "}
+                  Jest prezesem ETCMA – European TCM Association, stowarzyszenia
+                  reprezentującego rozsiane w 24. krajach zgrupowania TMC.
+                </p>{" "}
                 <p className="mt-6">
-                  Dr. Maimon formally the director of the complementary medical
-                  unit at the Tel Aviv Medical Center for over 15 years and
-                  directed an integrative oncology research center at Sheba
-                  medical center in Israel. Dr. Maimon has published several
-                  outstanding research articles in prominent scientific medical
-                  journals showing a unique, promising results on the effect of
-                  herbal medicine in cancer care.He is the founder of TCM
-                  Academy of integrative medicine (TCM.AC) and has been a
-                  keynote lecturer and taught post-graduate training seminars in
-                  many international conferences on Integrative and Chinese
-                  Medicine.
+                  {" "}
+                  Dr Maimon przez ponad 15 lat był dyrektorem oddziału medycyny
+                  komplementarnej w Centrum Medycznym w Tel Awiwie oraz kierował
+                  ośrodkiem badań nad integracyjną onkologią w Centrum Medycznym
+                  Sheba w Izraelu. Jest założycielem TCM Academy of integrative
+                  medicine (TCM.AC), gdzie był głównym wykładowcą. Prowadzi
+                  również podyplomowe seminaria szkoleniowe na wielu
+                  międzynarodowych konferencjach poświęconych medycynie
+                  integracyjnej i chińskiej.
                 </p>
               </div>
             </div>

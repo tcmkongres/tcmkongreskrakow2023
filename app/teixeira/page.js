@@ -31,33 +31,37 @@ export default function Page() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Ricardo is a licensed Acupuncturist and also as the number one
-                  licence in Traditional Chinese Medicine Specialist in
-                  Portugal. Vice president of the ETCMA (European Traditional
-                  Chinese Medicine Association), ETCMA is an umbrella
-                  organisation for professional associations that represent more
-                  than 30 societies from 21 European countries that represent
-                  different fields within Traditional Chinese Medicine.
-                  Professor in the Portuguese Red Cross Northern Health School
-                  in the bachelor degree in Acupuncture. Also, a Certified
-                  Trainer in the area of Traditional Chinese Medicine.
+                  Ricardo Texeira jest licencjonowanym akupunkturzystą, a także
+                  wiodącym specjalistą tradycyjnej medycyny chińskiej w
+                  Portugalii. Piastuje stanowisko vice prezesa ETCMA (European
+                  Traditional Chinese Medicine Association) – organizacji
+                  parasolowej dla stowarzyszeń zawodowych, które są powiązane z
+                  ponad 30 społecznościami z 21 krajów europejskich,
+                  reprezentujących różne wymiary tradycyjnej medycyny chińskiej.
+                  Profesor w Portugalskiej Północnej Szkole Zdrowia pod egidą
+                  Czerwonego Krzyża w zakresie studiów licencjackich z
+                  akupunktury. Jest również certyfikowanym trenerem w dziedzinie
+                  tradycyjnej medycyny chińskiej.
                 </p>{" "}
                 <p className="mt-6">
-                  Ricardo started TCM training in the APA-DA (Portugal) in 2003,
-                  internship in Chengdu University of Traditional Chinese
-                  Medicine in 2009, and took another internship in 2017 in
-                  México with Dr Roberto González. He has undertaken
-                  postgraduate courses at the Instituto Van Nghi in Portugal
-                  with Dr. Tran Viet Dzung and several courses in the field of
-                  TCM.
-                </p>
+                  Ricardo rozpoczął szkolenie z zakresu TMC w APA-DA
+                  (Portugalia) w 2003 r., w 2009 r. odbył staż w Chengdu
+                  University of Traditional Chinese Medicine, a kolejny w 2017
+                  r. w Meksyku u dr Roberto Gonzáleza. Ukończył studia
+                  podyplomowe w Instituto Van Nghi w Portugalii u dra Tran Viet
+                  Dzunga, a także różnorakie kursy z zakresu TMC.
+                </p>{" "}
                 <p className="mt-6">
-                  Ricardo has been invited to speak at several conferences
-                  across Europe and South America. He is a founder member of the
-                  World Acupuncture Day Organisation (WADO) and was part of the
-                  organising committee for World Acupuncture Day at the UNESCO
-                  Building in Paris. He is also a licensed Cardiopulmonologist
-                  and a licensed Neurophysiologist.
+                  Ricardo był wielokrotnie zapraszany na liczne konferencje w
+                  Europie i Ameryce Południowej. Jest członkiem założycielem
+                  Światowej Organizacji Dnia Akupunktury (WADO) i wchodził w
+                  skład komitetu organizacyjnego Światowego Dnia Akupunktury
+                  przy siedzibie UNESCO w Paryżu.
+                </p>{" "}
+                <p className="mt-6">
+                  {" "}
+                  Jest również licencjonowanym kardiopulmonologiem i
+                  neurofizjologiem.
                 </p>
               </div>
             </div>

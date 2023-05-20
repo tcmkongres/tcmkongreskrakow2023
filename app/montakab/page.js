@@ -31,23 +31,28 @@ export default function Page() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Hamid Montakab graduated from the Medical School of Paris, did
-                  his residency in surgery as well as completing an education in
-                  acupuncture in France and in China. After practicing in the
-                  USA, he founded the Academy of Chinese Healing Arts in
-                  Switzerland. He was commissioned by the Swiss National Science
-                  Foundation to conduct a research study on Acupuncture and
-                  Insomnia. In 1995 he was co-founder and president of the Swiss
-                  Professional Organization for TCM (SPO-TCM).
-                </p>
+                  Hamid Montakab ukończył studia medyczne w Paryżu, odbył staż z
+                  chirurgii, a także zdobył wykształcenie w zakresie akupunktury
+                  we Francji i w Chinach. Po praktyce w USA założył Akademię
+                  Chińskiej Sztuki Uzdrawiania w Szwajcarii. Na zlecenie
+                  Szwajcarskiej Narodowej Fundacji Nauki przeprowadził badania
+                  nad akupunkturą w kontekście bezsenności. W 1995 r. był
+                  współzałożycielem i prezesem Swiss Professional Organization
+                  for TCM (SPO-TCM).
+                </p>{" "}
                 <p className="mt-6">
-                  Hamid has been lecturing in Europe and the US and is the
-                  author of: Acupuncture and Insomnia/ Sleep and Dreams in
-                  Chinese Medicine Treasures of Acupuncture/ Acupuncture Point
-                  and Channel Energetics Chinese Medicine Revisited / A Western
-                  View of Chinese Medicine Acupuncture for Headaches, Eyes and
-                  ENT Pathologies Acupuncture for treating the Hidden Roots of
-                  Disease
+                  {" "}
+                  Hamid prowadzi liczne wykłady w Europie i USA, jest autorem
+                  następujących pozycji:
+                </p>{" "}
+                <p className="mt-6">
+                  • Acupuncture and Insomnia/ Sleep and Dreams in Chinese
+                  Medicine <br /> • Treasures of Acupuncture/ Acupuncture Point
+                  and Channel Energetics <br /> • Chinese Medicine Revisited / A
+                  Western View of Chinese Medicine [polskie wydanie: Medycyna
+                  chińska w praktyce, wyd. Galaktyka 2015) <br /> • Acupuncture
+                  for Headaches, Eyes and ENT Pathologies <br /> • Acupuncture
+                  for treating the Hidden Roots of Disease
                 </p>
               </div>
             </div>

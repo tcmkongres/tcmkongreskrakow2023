@@ -31,30 +31,31 @@ export default function Page() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Rani Ayal has been studying, practicing and teaching Chinese
-                  Medicine for over thirty years Initially introduced in Japan
-                  to Shiatsu and Acupuncture, he returned to Israel in 1988 to
-                  complete his studies in Shiatsu, TCM acupuncture and herbal
-                  therapy.
+                  Rani Ayal zgłębia, praktykuje i uczy medycyny chińskiej od
+                  ponad trzydziestu lat. Początkowo studiował shiatsu i
+                  akupunkturę w Japonii. Następnie, w 1988 r., powrócił do
+                  Izraela, aby ukończyć studia w zakresie shiatsu, akupunktury
+                  wg TMC i ziołolecznictwa. Dalej kontynuował edukację z zakresu
+                  akupunktury konstytucyjnej, specjalizując się w filozofii i
+                  praktycznych zastosowaniach Wu Yun Liu Qi - „Pięciu ruchów i
+                  sześciu Qi&quot; oraz „Tian Gan Di Zhi&quot; - Dziesięciu
+                  (Niebiańskich) Korzeni i Dwunastu (Ziemskich) Konarów – u
+                  mistrza akupunktury Joana Duveena, który do dziś jest jego
+                  mentorem.
                 </p>{" "}
                 <p className="mt-6">
-                  Rani then continued his training in Constitutional
-                  Acupuncture, specializing in the philosophies and practical
-                  applications of Wu Yun Liu Qi – &apos;Five Movements and Six
-                  Qi&apos; and &apos;Tian Gan Di Zhi&apos; – Ten (Heavenly)
-                  Stems and Twelve (Earthly) Branches, with master acupuncturist
-                  Joan Duveen; who continues to be his mentor to this day.
+                  {" "}
+                  Były dyrektor wydziału akupunktury w Centrum Medycznym
+                  Sourasky w Tel Awiwie i przewodniczący izraelskiego
+                  stowarzyszenia TMC, Rani prowadzi pełnowymiarową klinikę dla
+                  dorosłych i dzieci, lecząc ponad 100 pacjentów tygodniowo.
                 </p>{" "}
                 <p className="mt-6">
-                  Former head of Acupuncture at the Sourasky medical center in
-                  Tel Aviv and chairman of the Israeli TCM association, Rani
-                  maintains a full-time clinic for adults and children, treating
-                  over 100 patients a week
-                </p>{" "}
-                <p className="mt-6">
-                  Rani lectures frequently in Israel and internationally and is
-                  co-author of an upcoming book, titled &apos;Gates of Life – a
-                  journey through the points of acupuncture&apos; .
+                  {" "}
+                  Często wykłada zarówno w Izraelu, jak i na arenie
+                  międzynarodowej. Jest współautorem mającej ukazać się wkrótce
+                  książki, zatytułowanej &quot;Bramy życia – podróż poprzez
+                  punkty akupunktury&quot;.
                 </p>
               </div>
             </div>

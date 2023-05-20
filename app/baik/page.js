@@ -31,41 +31,48 @@ export default function Page() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Jong Kook Baik is originally from South Korea and is now
-                  living in England. He is an Award-Winning international
-                  lecturer specialising in micro-acupuncture systems
-                  particularly Korean Hand Therapy (KHT).
+                  Jong Kook Baik pochodzi z Korei Południowej, obecnie mieszka w
+                  Anglii. Jest wielokrotnie nagradzanym międzynarodowym
+                  wykładowcą specjalizującym się w systemach mikroakupunktury, w
+                  szczególności Koreańskiej Terapii Ręki (KHT).
                 </p>{" "}
                 <p className="mt-6">
-                  Jong initially studied KHT in the early 1990s in South Korea
-                  and was awarded a Diploma in KHT. He then went on to study for
-                  four years at the Northern College of Acupuncture in York, UK
-                  to gain his Diploma in Acupuncture. He studied for his Masters
-                  degree in Acupuncture at the University of Wales and his PhD
-                  in Traditional Chinese Medicine (Huangdi Neijing) at the
-                  University of Wales Lampeter. He completed his PhD under the
-                  prestigious Professor Bao Zhao Ju at the Liaoning University
-                  of Traditional Chinese Medicine, Shenyang, China.
+                  {" "}
+                  Jong studiował KHT na początku lat 90-tych w Korei
+                  Południowej, gdzie uzyskał dyplom w tym zakresie. Następnie
+                  przez cztery lata studiował w Northern College of Acupuncture
+                  w Yorku, w Wielkiej Brytanii, gdzie uzyskał dyplom z
+                  akupunktury. Studia magisterskie z akupunktury odbył na
+                  Uniwersytecie Walijskim, a doktorat z tradycyjnej medycyny
+                  chińskiej (Huangdi Neijing) na Uniwersytecie Walijskim w
+                  Lampeter. Doktorat ukończył pod kierunkiem renomowanego
+                  profesora Bao Zhao Ju na Liaoning University of Traditional
+                  Chinese Medicine, Shenyang,w Chinach.
                 </p>{" "}
                 <p className="mt-6">
-                  In 2016 he was awarded the title of Doctor of Acupuncture from
-                  the World Federation of Acupuncture and Moxibustion Societies
-                  (WFAS), Beijing, China. He went on to be awarded the title of
-                  Clinical Specialist in Acupuncture from the Liaoning
-                  University of Traditional Chinese Medicine in 2018.
+                  {" "}
+                  W 2016 roku otrzymał tytuł Doctor of Acupuncture nadany przez
+                  World Federation of Acupuncture and Moxibustion Societies
+                  (WFAS), Beijing, China. Następnie, w 2018 r., uzyskał tytuł
+                  Clinical Specialist in Acupuncture od Liaoning University of
+                  Traditional Chinese Medicine.
                 </p>{" "}
                 <p className="mt-6">
-                  Jong has worked as part of a palliative care team in a hospice
-                  in Darlington for 14 years and is now a visiting professor at
-                  Southern California University School of Oriental Medicine and
-                  Acupuncture. He has written several books about Traditional
-                  East Asian Medicine and contributed to numerous journals.
+                  {" "}
+                  Jong przez 14 lat pracował jako część zespołu opieki
+                  paliatywnej w hospicjum w Darlington, a obecnie jest
+                  profesorem wizytującym w Southern California University School
+                  of Oriental Medicine and Acupuncture. Napisał kilka książek z
+                  zakresu tradycyjnej medycyny wschodnioazjatyckiej i
+                  współpracował z wieloma czasopismami.
                 </p>{" "}
                 <p className="mt-6">
-                  Since 2005 Jong has established his own teaching academy, Jong
-                  Baik Education, based in Darlington, UK. He also splits his
-                  time between running a busy clinic in Darlington and lecturing
-                  in a wide range of subjects around the world.
+                  {" "}
+                  Od 2005 roku Jong założył własną akademię, Jong Baik
+                  Education, z siedzibą w Darlington w Wielkiej Brytanii. Swój
+                  czas dzieli również na prowadzenie prężnie działającej kliniki
+                  w Darlington i wygłaszanie wykładów z wielu dziedzin na całym
+                  świecie.
                 </p>
               </div>
             </div>

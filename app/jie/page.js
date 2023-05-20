@@ -31,59 +31,58 @@ export default function Page() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  He has been practicing TCM 30 years in Europe.
-                </p>
-                <p className="mt-6"></p>
+                  Od 30 lat praktykuje tradycyjną medycynę chińską w Europie.
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  He has been involved in the development of international
-                  education and practices of Classical Chinese Medicine (CCM) in
-                  the countries like the Netherlands, Germany, Sweden,
-                  Switzerland, Austria, Poland, Rumania, Czech Republic, Denmark
-                  and China for last decades.
-                </p>
+                  Przez ostatnie dekady był zaangażowany w rozwój
+                  międzynarodowej edukacji i praktyki klasycznej medycyny
+                  chińskiej (CCM) w takich krajach, jak Holandia, Niemcy,
+                  Szwecja, Szwajcaria, Austria, Polska, Rumunia, Czechy, Dania i
+                  Chiny.
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  He is one of the founders of Qing-Bai TCM Academy in the
-                  Netherlands, the TCM Classical Research Institute and TCM
-                  School TOMO in Poland.
-                </p>
-                <p className="mt-6">
-                  He is annual speaker at the TCM congress in Rothenburg
-                  (Germany).
-                </p>
+                  Jest jednym z założycieli Akademii Qing-Bai TCM w Holandii,
+                  Klasycznego Instytutu Badawczego TMC oraz Szkoły TMC TOMO w
+                  Polsce.
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  He is a board member of the World Federation of Chinese
-                  Medicine Societies (WFCMS) examination committee.
-                </p>
+                  Co roku jest mówcą na kongresie TMC w Rothenburgu (Niemcy).
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  Since 2003 he has been appointed as a guest professor of
-                  Shandong TCM University Jinan China.
-                </p>
+                  Jest członkiem zarządu komisji egzaminacyjnej World Federation
+                  of Chinese Medicine Societies (WFCMS).
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  He is also the holding director of the European Branch of
-                  “Inheritance of Traditional Chinese Medicine China National Qi
-                  Lu School of Miscellaneous Diseases”.
-                </p>
+                  W 2003 r. został mianowany profesorem wizytującym w Shandong
+                  TCM University Jinan China.
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  Since 2005, he has focused on lecturing Classical TCM works,
-                  Huang Di Nei Jing, Shang Han Lun and Jin Gui Yao Lüe, Nan
-                  Jing, Zhen Jiu Jia Yi Jing, Zhen Jiu Da Cheng etc.
-                </p>
+                  Jest również dyrektorem holdingowym europejskiego oddziału
+                  &quot;Inheritance of Traditional Chinese Medicine China
+                  National Qi Lu School of Miscellaneous Diseases&quot;.
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  He has been more than 10 years column writer of “Answer the
-                  difficult TCM questions by CCM texts explanation” for Journal
-                  Huang Ti, Netherlands.
-                </p>
+                  Od 2005 r. skupia się na tworzeniu wykładów w oparciu o
+                  analizę klasycznych dzieł z zakresu medycyny chińskiej, takich
+                  jak Huang Di Nei Jing, Shang Han Lun i Jin Gui Yao Lüe, Nan
+                  Jing, Zhen Jiu Jia Yi Jing, Zhen Jiu Da Cheng itd.
+                </p>{" "}
                 <p className="mt-6">
                   {" "}
-                  He is PhD of physiology, Nijmegen University in The
-                  Netherlands.
+                  Od ponad 10 lat prowadzi rubrykę &quot;Odpowiedzi na trudne
+                  pytania z zakresu TMC poprzez objaśnianie tekstów klasycznej
+                  medycyny chińskiej&quot; dla Journal Huang Ti, Holandia.
+                </p>{" "}
+                <p className="mt-6">
+                  {" "}
+                  Jest doktorem fizjologii Uniwersytetu w Nijmegen w Holandii.
                 </p>
               </div>
             </div>
