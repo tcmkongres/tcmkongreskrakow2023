@@ -6,10 +6,10 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import Organizers from "@/components/Organizers";
 import Faqs from "@/components/Faqs";
-import Pricing from "@/components/Pricing";
 import Hotel from "@/components/Hotel";
 import Layout from "app/layout";
 import Koszyk from "@/components/Koszyk";
+import Timeline from "@/components/Timeline";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
             <Speakers></Speakers>
             <Schedule></Schedule>
             <Hotel></Hotel>
-            {/*<Pricing></Pricing>*/}
+            <Timeline></Timeline>
             <Koszyk></Koszyk>
             <Faqs></Faqs>
             <Organizers></Organizers>

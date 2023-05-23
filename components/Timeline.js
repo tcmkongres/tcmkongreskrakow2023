@@ -1,29 +1,45 @@
-import { Link } from "react-router-dom";
-
 const timeline = [
   {
-    name: "Wroclaw",
-    description: "Opis poprzedniego wydarzenia, jakis opis i tak dalej",
-    date: "Aug 2016",
-    dateTime: "2016-08",
+    name: "Tcm Kongres Kraków 2016 ",
+    description: "Pierwszy kongres TCM w Krakowie.",
+    date: "10.2016",
+    dateTime: "14-16.10.2016",
+    url: "http://2016.tcm-kongres.krakow.pl/",
   },
   {
-    name: "Poznan",
-    description: "Opis poprzedniego wydarzenia, jakis opis i tak dalej",
-    date: "Dec 2017",
-    dateTime: "2017-12",
+    name: "Tcm Kongres Kraków 2017",
+    description:
+      "Tematy:" +
+      " Diagnoza w TCM.\n" +
+      "Choroby układu pokarmowego - możliwości leczenia i efektywność metod TCM.\n" +
+      "Choroby cywilizacyjne - możliwości leczenia i efektywność metod TCM. ",
+    date: "10 2017",
+    dateTime: "13-15.10.2017",
+    url: "http://2017.tcm-kongres.krakow.pl/",
   },
   {
-    name: "Warszawa",
-    description: "Opis poprzedniego wydarzenia, jakis opis i tak dalej",
-    date: "Feb 2018",
-    dateTime: "2018-02",
+    name: "Tcm Kongres Kraków 2018",
+    description:
+      "Tematy:\n" +
+      "Ginekologia i płodność.\n" +
+      "Pediatria.\n" +
+      "Shen i psychika, choroby psychosomaryczne.\n" +
+      "TCM i badania naukowe.",
+    date: "10 2018",
+    dateTime: "12-14.10.2018",
+    url: "http://2018.tcm-kongres.krakow.pl/",
   },
   {
-    name: "Krakow",
-    description: "Opis poprzedniego wydarzenia, jakis opis i tak dalej",
-    date: "Dec 2019",
-    dateTime: "2019-12",
+    name: "Tcm Kongres Kraków 2019",
+    description:
+      "Tematy :\n" +
+      "\n" +
+      "YangSheng\n" +
+      "Techniki akupunktury i moksybucji. \n" +
+      "Leczenie chorób przewlekłych i ostrych ziołami chińskimi.",
+    date: "10 2019",
+    dateTime: "11-13.10.2019",
+    url: "https://tcm-kongres.pl/",
   },
 ];
 
@@ -63,18 +79,14 @@ export default function Timeline() {
                 {item.description}
               </p>
               <div className="mt-4 flex">
-                <Link
-                  href="/"
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Zobacz <span aria-hidden="true">&rarr;</span>
-                </Link>
-                {/*<a*/}
-                {/*    href="#"*/}
-                {/*    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"*/}
-                {/*>*/}
-                {/*  Zobacz <span aria-hidden="true">&rarr;</span>*/}
-                {/*</a>*/}
+                </a>
               </div>
             </div>
           ))}
