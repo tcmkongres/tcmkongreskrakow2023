@@ -17,7 +17,8 @@ const schedule = [
       },
       {
         name: "Marek Kalmus",
-        description: "Wkrótce",
+        description:
+          "Dlaczego medycyna chińska nie powinna upodobaniać się do medycyny zachodniej?",
         start: "10:10",
         end: "10:40",
       },
@@ -35,19 +36,21 @@ const schedule = [
       },
       {
         name: "Ricardo Teixeira ",
-        description: "Wkrótce",
+        description:
+          "Spojrzenie długodystansowe: ewolucja Shen na przestrzeni czasu.",
         start: "12:00",
         end: "12:30",
       },
       {
-        name: "Marta Nizioł",
-        description: "Wkrótce",
+        name: "Marta Nizioł-Wojniusz",
+        description:
+          "Trauma – zerwane połączenie: rola Shao Yin w kontekście doświadczenia traumy.",
         start: "12:30",
         end: "13:00",
       },
       {
         name: "Izabela Miętka",
-        description: "Wkrótce",
+        description: "Cykle życia.",
         start: "13:00",
         end: "13:30",
       },
